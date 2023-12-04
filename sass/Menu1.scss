@@ -1,0 +1,287 @@
+/****** General ***********/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color: #9356DC;
+    --main-bg-color: #FF79DA;
+    --filter-bg-color: #99E2D0;
+}
+
+
+
+.IconeCoeur {
+
+    font-size: 18px;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.TOPARROW {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Logo {
+    font-family: 'Shrikhand', serif;
+    text-align: center;
+
+
+    a {
+        text-decoration: none;
+        outline: none;
+        font-family: 'Shrikhand', serif;
+        color: black;
+    }
+}
+
+.Top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        outline: none;
+        font-family: 'Shrikhand', serif;
+        color: black;
+        position: absolute;
+        left: 17px;
+    }
+
+    i {
+        font-size: 35px;
+
+
+
+    }
+}
+
+.Picture {
+    width: 100%;
+    object-fit: cover;
+    height: 275px;
+
+}
+
+.Menu {
+    margin-top: -50px;
+    position: relative;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.Menu h1 {
+    font-family: 'Shrikhand';
+    font-style: italic;
+    width: 91%;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 13px;
+    font-weight: 900;
+}
+
+
+
+.Subtitle {
+    margin-left: 13px;
+    font-family: 'Roboto';
+    border-bottom: 3px solid #99E2D0;
+    border-color: #99E2D0;
+    width: 40px;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+.Card {
+    width: 93%;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 13px;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: padding-right 0.3s ease;
+    z-index: 1;
+    margin: 0 2% 20px;
+}
+
+.TitleAndSubtitle {
+    flex-grow: 1;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+.Title {
+    margin: 0;
+    margin-right: 20px;
+
+}
+
+.Title,
+.More {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Price {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.Card:hover {
+
+    .TitleAndSubtitle {
+        white-space: nowrap;
+    }
+
+
+
+}
+
+.BuyButton {
+    width: 186px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    color: white;
+    align-self: center;
+    margin-top: 25px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2980b9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.1);
+}
+
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    color: white;
+}
+
+.LogoFooter {
+    width: 137px;
+    margin-top: 0px;
+    margin-left: 13px;
+    font-family: 'Shrikhand', serif;
+}
+
+.InfosFooter {
+    margin-left: 13px;
+    color: white
+}
+
+.InfosFooter i {
+    color: white;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+
+
+    .Logo {
+        font-family: 'Shrikhand', serif;
+        text-align: center;
+
+
+    }
+
+
+
+    .Menu {
+        width: 73%;
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        h1 {
+            text-align: center;
+
+        }
+
+        .BuyButton {
+            padding: 10px;
+            position: relative;
+            bottom: 15px;
+            width: 186px;
+            height: 50px;
+
+
+        }
+
+        .Card {
+            width: 60%;
+            gap: 12px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+
+        }
+
+        .Subtitle {
+            width: 40px;
+            position: relative;
+            margin-right: auto;
+            margin-left: 165px;
+
+        }
+    }
+
+    footer {
+        height: 114px;
+
+    }
+
+    .LogoFooter {
+        display: flex;
+        font-family: 'Shrikhand', serif;
+        margin-left: auto;
+        margin-right: 50px;
+        position: relative;
+        top: 55px;
+    }
+
+    .InfosFooter {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        position: relative;
+        right: 220px;
+    }
+
+
+
+}

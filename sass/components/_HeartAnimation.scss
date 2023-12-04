@@ -1,0 +1,31 @@
+.IconeCoeur {
+    cursor: pointer;
+
+    .far {
+        opacity: 1;
+        transition-duration: 1s;
+    }
+
+    .fas {
+        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        cursor: pointer;
+        color: transparent;
+        transition-duration: 1s;
+        opacity: 0;
+    }
+
+    &:hover {
+
+        .fas {
+            opacity: 1;
+        }
+
+        .far {
+            opacity: 0;
+        }
+
+
+    }
+}
