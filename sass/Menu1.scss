@@ -197,7 +197,18 @@ footer {
 
 .InfosFooter {
     margin-left: 13px;
-    color: white
+    color: white;
+
+    a {
+        text-decoration: none;
+        outline: none;
+        color: white;
+    }
+
+    .contact {
+        margin-bottom: 0px;
+
+    }
 }
 
 .InfosFooter i {

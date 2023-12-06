@@ -177,6 +177,14 @@ footer {
   margin-left: 13px;
   color: white;
 }
+.InfosFooter a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+.InfosFooter .contact {
+  margin-bottom: 0px;
+}
 
 .InfosFooter i {
   color: white;
