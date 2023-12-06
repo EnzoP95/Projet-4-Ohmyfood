@@ -28,6 +28,8 @@ header a {
 .Logo {
   font-family: "Shrikhand", serif;
   text-align: center;
+  font-size: 2em;
+  font-weight: bold;
 }
 .Logo a {
   text-decoration: none;
