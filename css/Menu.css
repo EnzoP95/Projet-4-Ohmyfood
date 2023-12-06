@@ -148,7 +148,7 @@ body {
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
   color: white;
   align-self: center;
-  margin-top: 25px;
+  margin-bottom: 30px;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
