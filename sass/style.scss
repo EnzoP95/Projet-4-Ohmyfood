@@ -82,11 +82,11 @@ header a {
     padding-bottom: 25px;
 }
 
-.BoutonMenu h2 {
+h2 {
     margin-left: 20px;
 }
 
-.BoutonMenu button {
+button {
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -141,11 +141,11 @@ header a {
 
 }
 
-.Frame h2 {
+h2 {
     margin-left: 20px;
 }
 
-.Frame a {
+a {
     text-decoration: none;
 }
 
@@ -242,7 +242,8 @@ footer {
         h2 {
             position: relative;
             width: 19%;
-            left: 55px;
+            left: 15%;
+            top: 2px;
         }
 
     }
@@ -269,7 +270,7 @@ footer {
         margin-left: auto;
         margin-right: 50px;
         position: relative;
-        top: 55px;
+        top: 37%;
     }
 
     .InfosFooter {

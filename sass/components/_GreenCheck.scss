@@ -21,9 +21,13 @@
 
 .fa-circle-check {
     transform: rotate(0deg);
+
 }
 
 .Card:hover .fa-circle-check {
     transform: rotate(360deg);
     transition: all 0.3s ease;
+    color: #99E2D0;
+    background-color: #FFF;
+    border-radius: 100%;
 }

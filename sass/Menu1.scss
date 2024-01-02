@@ -86,7 +86,7 @@ body {
     border-top-left-radius: 15px;
 }
 
-.Menu h1 {
+h1 {
     font-family: 'Shrikhand';
     font-style: italic;
     width: 91%;
@@ -131,12 +131,14 @@ body {
     flex-grow: 1;
     padding: 10px;
     overflow: hidden;
+    white-space: nowrap;
 }
 
 
 .Title {
     margin: 0;
     margin-right: 20px;
+    font-size: 18px;
 
 }
 
@@ -144,6 +146,10 @@ body {
 .More {
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.More {
+    font-size: 15px;
 }
 
 .Price {
@@ -267,7 +273,7 @@ footer {
             width: 40px;
             position: relative;
             margin-right: auto;
-            margin-left: 165px;
+            margin-left: 20%;
 
         }
     }

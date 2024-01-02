@@ -76,7 +76,7 @@ body {
   border-top-left-radius: 15px;
 }
 
-.Menu h1 {
+h1 {
   font-family: "Shrikhand";
   font-style: italic;
   width: 91%;
@@ -118,17 +118,23 @@ body {
   flex-grow: 1;
   padding: 10px;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .Title {
   margin: 0;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 .Title,
 .More {
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.More {
+  font-size: 15px;
 }
 
 .Price {
@@ -224,7 +230,7 @@ footer {
     width: 40px;
     position: relative;
     margin-right: auto;
-    margin-left: 165px;
+    margin-left: 20%;
   }
   footer {
     height: 114px;
@@ -323,4 +329,7 @@ footer {
 .Card:hover .fa-circle-check {
   transform: rotate(360deg);
   transition: all 0.3s ease;
+  color: #99E2D0;
+  background-color: #FFF;
+  border-radius: 100%;
 }/*# sourceMappingURL=Menu.css.map */
