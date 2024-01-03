@@ -90,7 +90,6 @@ h1 {
 
 .Subtitle {
   margin-left: 13px;
-  font-family: "Roboto";
   border-bottom: 3px solid #99E2D0;
   border-color: #99E2D0;
   width: 40px;
@@ -191,7 +190,6 @@ footer {
 .InfosFooter .contact {
   margin-bottom: 0px;
 }
-
 .InfosFooter i {
   color: white;
 }
@@ -318,7 +316,7 @@ footer {
 }
 
 .Card:hover .GreenCheck {
-  width: 20%;
+  width: 59px;
   opacity: 1;
 }
 
