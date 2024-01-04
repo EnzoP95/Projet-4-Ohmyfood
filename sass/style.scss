@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
 
+
+
 }
 
 
@@ -21,7 +23,9 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: auto;
-
+    overflow-x: hidden;
+    position: relative;
+    /* Ajout de cette ligne pour masquer la barre de défilement horizontale */
 }
 
 header a {
@@ -282,7 +286,5 @@ footer {
         right: 220px;
     }
 
-    .IconeCity {
-        max-width: 95%;
-    }
+
 }

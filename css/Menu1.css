@@ -118,6 +118,9 @@ h1 {
   overflow: hidden;
   white-space: nowrap;
 }
+.Card:hover .TitleAndSubtitle {
+  white-space: nowrap;
+}
 
 .Title {
   margin: 0;
@@ -140,10 +143,6 @@ h1 {
   margin-top: auto;
 }
 
-.Card:hover .TitleAndSubtitle {
-  white-space: nowrap;
-}
-
 .BuyButton {
   width: 186px;
   height: 50px;
@@ -155,8 +154,7 @@ h1 {
   margin-bottom: 30px;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
-
-button:hover {
+.BuyButton:hover {
   cursor: pointer;
   background-color: #2980b9;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -169,27 +167,25 @@ footer {
   background-color: #353535;
   color: white;
 }
-
-.LogoFooter {
+footer .LogoFooter {
   width: 137px;
   margin-top: 0px;
   margin-left: 13px;
   font-family: "Shrikhand", serif;
 }
-
-.InfosFooter {
+footer .InfosFooter {
   margin-left: 13px;
   color: white;
 }
-.InfosFooter a {
+footer .InfosFooter a {
   text-decoration: none;
   outline: none;
   color: white;
 }
-.InfosFooter .contact {
+footer .InfosFooter .contact {
   margin-bottom: 0px;
 }
-.InfosFooter i {
+footer .InfosFooter i {
   color: white;
 }
 
@@ -232,7 +228,7 @@ footer {
   footer {
     height: 114px;
   }
-  .LogoFooter {
+  footer .LogoFooter {
     display: flex;
     font-family: "Shrikhand", serif;
     margin-left: auto;
@@ -240,7 +236,7 @@ footer {
     position: relative;
     top: 52%;
   }
-  .InfosFooter {
+  footer .InfosFooter {
     display: flex;
     justify-content: end;
     gap: 20px;
