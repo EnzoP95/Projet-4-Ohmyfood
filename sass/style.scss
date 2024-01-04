@@ -12,7 +12,6 @@
     --filter-bg-color: #99E2D0;
 }
 
-
 .fa-solid {
     color: var(--main-color);
 }
@@ -22,7 +21,7 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: auto;
-    overflow-x: hidden;
+
 }
 
 header a {
@@ -281,5 +280,9 @@ footer {
         gap: 20px;
         position: relative;
         right: 220px;
+    }
+
+    .IconeCity {
+        max-width: 95%;
     }
 }

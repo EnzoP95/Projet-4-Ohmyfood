@@ -18,7 +18,6 @@ body {
   width: 100%;
   max-width: 1440px;
   margin: auto;
-  overflow-x: hidden;
 }
 
 header a {
@@ -229,6 +228,9 @@ footer {
     position: relative;
     right: 220px;
   }
+  .IconeCity {
+    max-width: 95%;
+  }
 }
 .Card {
   width: 91%;
@@ -270,6 +272,7 @@ footer {
 @media screen and (min-width: 900px) {
   .Frame {
     display: flex;
+    max-width: 96%;
   }
   .TitleFrame {
     position: relative;
@@ -290,6 +293,7 @@ footer {
   }
   footer {
     margin: 0;
+    max-width: 96%;
   }
 }
 .MenuTop {
@@ -336,6 +340,7 @@ footer {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    max-width: 95%;
   }
   .MenuTop h1 {
     display: flex;

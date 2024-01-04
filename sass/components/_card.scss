@@ -49,7 +49,7 @@
     .Frame {
 
         display: flex;
-
+        max-width: 96%;
     }
 
     .TitleFrame {
@@ -75,7 +75,8 @@
     }
 
     footer {
-        margin: 0
+        margin: 0;
+        max-width: 96%;
     }
 
 }
